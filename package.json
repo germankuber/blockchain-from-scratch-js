@@ -1,0 +1,27 @@
+{
+  "name": "Gk-Blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --config ./jest.config.json",
+    "test-dev": "jest --config ./jest.config.json",
+    "dev-test": "nodemon dev-test",
+    "dev": "nodemon ./app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.6"
+  }
+}
